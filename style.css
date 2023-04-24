@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header .img-rules {
+.header .header__img-rules {
   width: 100%;
 }
-.header .link-details {
+.header .header__link-details {
   font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-wrapper {
+.section-add-item__task-wrapper {
   display: flex;
 }
 .list {
@@ -46,7 +46,7 @@
   list-style: none;
 }
 .input,
-.checkbox,
+.todo__checkbox,
 .btn {
   outline: none;
 }
@@ -112,7 +112,7 @@
   vertical-align: middle;
 }
 
-.todo > .checkbox {
+.todo > .todo__checkbox {
   margin: 0 10px;
 }
 .todo > .todo-text  {
@@ -124,12 +124,12 @@
 .todo >    .input {
   width: 226px;
 }
-.btn.delete .remove-icon {
+.btn.delete .delete__remove-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn.delete .remove-icon:hover {
+.btn.delete .delete__remove-icon:hover {
   transform: rotateZ(0);
 }
 
