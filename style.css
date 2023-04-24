@@ -24,7 +24,7 @@
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 .list {
@@ -131,7 +131,7 @@
 }
 
 /* Completed */
-.list#completed-tasks .todo-text {
+.list#complete-list .todo-text {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,11 +141,11 @@
   display: none;
 }
 
-.list .todo.editMode .input {
+.list .todo.edit-mode .input {
   display: inline-block;
   width: 224px;
 }
 
-.list .todo.editMode .todo-text {
+.list .todo.edit-mode .todo-text {
   display: none;
 }

@@ -17,17 +17,17 @@
         Want more details?
       </a>
     </header>
-    <main class="centered-main-page-element">
-      <section id="topSectionForAddingElementToList">
+    <main class="main">
+      <section id="section-add-item">
         <label class="todo-text" id="add-item" for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+        <div class="task-wrapper">
           <input id="new-task" class="input task"
               type="text">
           <button class="btn">Add</button>
         </div>
       </section>
       <h3 class="title-section">Todo</h3>
-      <ul class="list" id="incompleteTasks">
+      <ul class="list" id="incomplete-list">
         <li class="todo">
           <input class="checkbox" type="checkbox">
           <label class="todo-text task">Pay Bills</label>
@@ -37,7 +37,7 @@
             <img class="remove-icon" src="./remove.svg">
           </button>
         </li>
-        <li class="todo editMode">
+        <li class="todo edit-mode">
           <input class="checkbox" type="checkbox">
           <label class="todo-text task">Go Shopping</label>
           <input type="text" value="Go Shopping"
@@ -49,7 +49,7 @@
         </li>
       </ul>
       <h3 class="title-section">Completed</h3>
-      <ul class="list" id="completed-tasks">
+      <ul class="list" id="complete-list">
         <li class="todo">
           <input class="checkbox" type="checkbox" checked>
           <label class="todo-text task">See the Doctor</label>
