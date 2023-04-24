@@ -41,10 +41,13 @@
   margin: 0;
   padding: 0px;
 }
-.todo, .title-section {
+.todo,
+.title-section {
   list-style: none;
 }
-.input, .checkbox, .btn {
+.input,
+.checkbox,
+.btn {
   outline: none;
 }
 .btn {
